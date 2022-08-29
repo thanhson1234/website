@@ -131,6 +131,7 @@ text-decoration: none;
     margin-right: 12px;
     width:100px;
     height: 40px;
+    color:red;
 }
 .grid__column-2-4{
     float: left;
@@ -139,9 +140,11 @@ text-decoration: none;
     background-color:#ADF45A ;
     border-radius: 2%;
     margin: 5px 5px;
+    text-decoration: none;
 }
 img {
-    width: 77%;
+    height: 200px;
+    width: 78%;
     text-align: center;
 }
 .card-body{
@@ -180,6 +183,7 @@ img {
     margin: 0;
     text-align: center;
     font-size: 1.2rem;
+    background-color: #f1ffce;
 }
 body {font-family: Arial, Helvetica, sans-serif;}
 .modal{
@@ -214,4 +218,36 @@ body {font-family: Arial, Helvetica, sans-serif;}
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+.card-body button{
+    margin-top: 10px;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+}
+.card-body button:hover{
+    background-color: #ff574d;
+}
+.class-img {
+    width: 70px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.cart{
+        width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.cart table{
+    width: 100%;
+}
+.cart table thead tr th:first-child{
+    text-align: left;
+}
+.cart table tr td{
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
 }
